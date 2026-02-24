@@ -15,7 +15,7 @@
 
 ## 📸 Project Preview
 ### Desktop View
-![Desktop Screenshot](./assets/desktop-view.png)
+![Desktop Screenshot](./assets/my-portfolio-landing-page_view.png)
 
 ### Mobile View
-![Mobile Screenshot](./assets/mobile-view.png)
+![Mobile Screenshot](./assets/my-portfolio-landing-page_Mobile_view)
