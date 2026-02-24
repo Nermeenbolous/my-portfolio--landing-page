@@ -1,1 +1,1 @@
-# golden-eagle-landing-page
+# my-profile-landing-page
