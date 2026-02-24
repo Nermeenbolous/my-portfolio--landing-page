@@ -1,19 +1,43 @@
-const toggleBtn = document.getElementById('theme-toggle');
-const currentTheme = localStorage.getItem('theme');
+/**
+ * Nermeen Bolous Portfolio Script
+ * Handles Theme Persistence and UI Interactions
+ */
 
-// Check for saved theme on load
-if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
+const themeToggle = document.getElementById('theme-toggle');
+const htmlElement = document.documentElement;
+
+// 1. Check for saved theme in localStorage
+const savedTheme = localStorage.getItem('portfolio-theme') || 'light';
+htmlElement.setAttribute('data-theme', savedTheme);
+updateToggleButton(savedTheme);
+
+// 2. Toggle Theme Event Listener
+themeToggle.addEventListener('click', () => {
+    const currentTheme = htmlElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    
+    // Apply theme to HTML
+    htmlElement.setAttribute('data-theme', newTheme);
+    
+    // Persist choice to localStorage
+    localStorage.setItem('portfolio-theme', newTheme);
+    
+    // Update button icon/text
+    updateToggleButton(newTheme);
+});
+
+// 3. UI Helper Function
+function updateToggleButton(theme) {
+    themeToggle.innerHTML = theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
 }
 
-toggleBtn.addEventListener('click', () => {
-    let theme = document.documentElement.getAttribute('data-theme');
-    
-    if (theme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
-    } else {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-    }
+// 4. Simple Scroll Reveal (Bonus Animation)
+window.addEventListener('scroll', () => {
+    const cards = document.querySelectorAll('.product-card');
+    cards.forEach(card => {
+        const cardTop = card.getBoundingClientRect().top;
+        if(cardTop < window.innerHeight - 100) {
+            card.style.opacity = '1';
+        }
+    });
 });
