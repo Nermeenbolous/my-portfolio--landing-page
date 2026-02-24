@@ -1,28 +1,21 @@
-# my-Portfolio -landing-page
-# Portfolio Project: Golden Eagle PH Landing Page
-**Developer:** Nermeen Bolous 
-**Education:** IT-Web Design, Lake Land College (Exp. 2026) 
+# Portfolio Landing Page
+**Developer:** Nermeen Bolous  
+**Education:** IT-Web Design, Lake Land College (Exp. 2026)
 
-### 📝 Project Description
-A high-fidelity, responsive product landing page developed as part of my Web Design curriculum. This project demonstrates advanced CSS layout techniques and UI interactivity.
+## 🔗 Submission Links
+* **Live Site:** https://nermeenbolous.github.io/my-portfolio--landing-page/
+* **GitHub Repo:** https://github.com/nermeenbolous/my-portfolio--landing-page
 
-### ✅ Features Checklist
-- [x] **CSS Grid:** Implemented for the Project/Case Study gallery.
-- [x] **Flexbox:** Used for Navigation, Hero section, and Skills list.
-- [x] **Mobile-First:** Responsive breakpoints at 768px and 1024px.
-- [x] [cite_start]**Dark Mode:** Persistence handled via `localStorage`. 
-- [x] **Animations:** Slide-in hero text and card hover transitions.
-- [x] **Accessibility:** High-contrast text and keyboard-accessible buttons.
+## 📋 Features Checklist
+- [x] **CSS Grid:** Used for the "Technical Certifications" card layout.
+- [x] **Flexbox:** Used for the professional Navigation bar.
+- [x] **Mobile-First:** Responsive design with breakpoints for mobile/desktop.
+- [x] **Dark Mode:** Integrated toggle button with localStorage persistence.
+- [x] **Accessibility:** One H1, high contrast, and keyboard-friendly.
 
-### 🛠 Technical Skills Showcased
-- [cite_start]**Web Development:** Responsive coding via CSS Grid/Flexbox.
-- [cite_start]**Design:** Visual assets inspired by Adobe Photoshop/Illustrator workflows. 
-- [cite_start]**Marketing:** Structured for Electronic Marketing engagement. 
+## 📸 Project Preview
+### Desktop View
+![Desktop Screenshot](./assets/desktop-view.png)
 
-### 📸 Screenshots
-| Desktop View | Mobile View |
-| :--- | :--- |
-| ![Desktop](./assets/desktop.png) | ![Mobile](./assets/mobile.png) |
-
----
-[cite_start]**Contact:** [nermobolous24@gmail.com](mailto:nermobolous24@gmail.com) 
+### Mobile View
+![Mobile Screenshot](./assets/mobile-view.png)
