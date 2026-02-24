@@ -4,7 +4,7 @@
 
 ## 🔗 Submission Links
 * **Live Site:** https://nermeenbolous.github.io/my-portfolio-landing-page/
-* **GitHub Repo:** https://github.com/nermeenbolous/my-portfolio-landing-page
+* **GitHub Repo:** https://github.com/Nermeenbolous/my-portfolio-landing-page
 
 ## 📋 Features Checklist
 - [x] **CSS Grid:** Used for the "Technical Certifications" card layout.
