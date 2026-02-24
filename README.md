@@ -18,4 +18,4 @@
 ![Desktop Screenshot](./assets/my-portfolio-landing-page_view.png)
 
 ### Mobile View
-![Mobile Screenshot](./assets/my-portfolio-landing-page_Mobile_view)
+![Mobile Screenshot](./assets/my-portfolio-landing-page_Mobile_view.png)
